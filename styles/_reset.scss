@@ -1,0 +1,33 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited, a:active {
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
